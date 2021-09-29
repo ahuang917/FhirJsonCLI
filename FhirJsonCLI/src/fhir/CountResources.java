@@ -72,7 +72,7 @@ public class CountResources
             }
         } else {
             System.out.println("Please enter FirstName LastName or ID as args");
-            System.out.println("For example:");
+            System.out.println("For example: CountResources.java Rosamond509 Lynch190");
             return;
         }
         
