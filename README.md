@@ -25,3 +25,7 @@ Passing patient identifier
 java -cp "C:\path\to\json_simple-1.1.jar" CountResources.java 34ff2141-1565-4564-a801-18f019fa10ab
 ```
 
+### Screenshots
+![Alt text](https://github.com/ahuang917/FhirJsonCLI/blob/master/idParam.png "usingID")
+
+![Alt text](https://github.com/ahuang917/FhirJsonCLI/blob/master/nameParam.png "usingName")
