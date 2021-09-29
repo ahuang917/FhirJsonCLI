@@ -4,9 +4,9 @@ Command line interface that parses FHIR resource ndjson files. Takes patient fir
 ## Getting Started
 
 ### Prerequisites
-json_simple1.1.jar https://code.google.com/archive/p/json-simple/downloads
-
 Latest version of Java https://www.oracle.com/java/technologies/downloads/
+
+json_simple-1.1.jar https://code.google.com/archive/p/json-simple/downloads
 
 ## Installation and Usage
 1. Clone repository.
@@ -18,10 +18,10 @@ git clone https://github.com/ahuang917/FhirJsonCLI.git
 
 Passing Patient First and Last name as arguments
 ```
-java -cp "C:\path\to\json-simple-1.1.jar" CountResources.java Rosamond509 Lynch190
+java -cp "C:\path\to\json_simple-1.1.jar" CountResources.java Rosamond509 Lynch190
 ```
 Passing patient identifier
 ```
-java -cp "C:\path\to\json-simple-1.1.jar" CountResources.java 34ff2141-1565-4564-a801-18f019fa10ab
+java -cp "C:\path\to\json_simple-1.1.jar" CountResources.java 34ff2141-1565-4564-a801-18f019fa10ab
 ```
 
